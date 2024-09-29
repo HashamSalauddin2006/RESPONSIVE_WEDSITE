@@ -211,3 +211,96 @@ h2{
     color: #38d2d9;
     border: none;
 }
+/* =============section_5 work============== */
+.section_5_text{
+    text-align: center;
+    margin-top: 25px;
+}
+.section_5_text  p{
+    margin-top: 10px;
+}
+.main_circle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 72px 188px;
+
+}
+.all_circle{
+
+    /* width: 311px; */
+    text-align: center;
+}
+.circle_1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #14b9bf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 147px;
+}
+.cricle_1_text{
+    margin-top:25px;
+}
+.cricle_1_text h5{
+    font-size: 25px;
+}
+.cricle_1_text p{
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.fa_icon{
+    font-size: 35px;
+}
+.circle_btn_4{
+    display: flex;
+    justify-content: center;
+}
+.btn_5{
+    padding: 10px 60px;
+    border-radius: 50px;
+    border-color: #14b9bf;
+    /* border: none; */
+
+}
+/* section_5 css work */
+.section_6{
+    margin-top: 50px;
+    background-color: aliceblue;
+}
+.main_text_images{
+    display: flex;
+
+}
+.u_text_1{
+    width: 50%;
+    padding: 147px;
+}
+.u_text_u_text_2{
+    font-weight: 200;
+}
+.images{
+    width: 50%;
+}
+.images img{
+    width: 100%;
+}
+.btn_6{
+    padding:20px 50px;
+    margin-top: 51px;
+    background-color: #14b9bf;
+    color: white;
+    border-radius: 50px;
+
+
+
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:20px;
+}

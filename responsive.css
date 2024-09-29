@@ -1,4 +1,4 @@
-@media (max-width:499px) {
+@media (max-width:499px) and (min-width:394px){
     .section_1{
         display: none;
        
@@ -6,6 +6,45 @@
     .section_2{
         display: block;
     }
+    .main_circle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .all_circle{
+        /* background-color: red; */
+        margin: 0;
+        padding: 0;
+        width:287px;
+        border: 1px solid black;
+        margin-top: 10px;
+
+
+
+    }
+    .cricle_1_text{
+        font-size: 50px;
+    }
+    .circle_1{
+        position: relative;
+        left: 17%;
+        margin-top: 20px;
+        /* top: 10%; */
+    }
+
+
+
+
+    .images img{
+        width: 100%;
+        height: 100%;
+    }
+    .u_text_u_text_1{
+        font-size: 27px;
+    }
+  
+   
+  
     
     
 }
@@ -84,6 +123,17 @@
 
     
     }
+    .circle_1{
+        margin-left: 64px;
+    }
+    .u_text_1{
+        padding: 10px;
+    }
+    .images img{
+        width: 100%;
+        height: 100%;
+    }
+ 
 
 }
 @media (max-width:800px) and (min-width:499px){
@@ -120,6 +170,68 @@
         margin-top: 30px;
         padding: 23px 51px;
     }
+    .main_circle{
+        margin-left:179px;
+    }
+    .circle_1{
+        margin-left: 20px;
+    }
+    .all_circle{
+        padding: 10px;
+    }
+    .u_text_1{
+        padding: 1px;
+        font-weight: 16px;
+    }
+    .images img{
+        width: 100%;
+        height: 100%;
+    }
+    .u_text_u_text_1{
+        font-size: 25px;
+
+    }
+    
+}
+@media (max-width:735px) and (min-width:499px){
+    .main_circle{
+        margin-left:25%;
+    }
+    .circle_1{
+        margin-left: 20px;
+    }
+    .all_circle{
+        padding: 10px;
+    }
 
 }
+@media (max-width:690px) and (min-width:499px){
+    .main_circle{
+        margin-left:20%;
+    }
+
+}
+@media (max-width:667px) and (min-width:499px){
+    .main_circle{
+        margin-left:23%;
+
+
+}
+}
+@media(max-width:1400px) and (min-width:1000px){
+    .u_text_1{
+        padding: 58px;
+    }
+    .circle_1{
+        margin-left: 136px;
+    }
+    
+
+}
+@media(max-width:1350px) and (min-width:1000px){
+    .circle_1{
+        margin-left: 104px;
+    }
+}
+ 
   
